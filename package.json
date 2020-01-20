@@ -1,0 +1,25 @@
+{
+  "name": "career_timeline",
+  "version": "0.0.1",
+  "description": "a career timeline that can serve as a dynamic resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node fuse"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "konva": "^4.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-konva": "^16.12.0-0"
+  },
+  "devDependencies": {
+    "fuse-box": "^4.0.0-next.165",
+    "terser": "^4.6.3",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "uglify-js": "^3.7.5"
+  }
+}
